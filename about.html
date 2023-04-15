@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture store</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><span>S</span>tore</a>
+            <nav class="lin open">
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul class="main">
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./index.html">sections</a>
+                        <div class="menu">
+                            <ul class="links">
+                                <li>
+                                    <a href="index.html#sofa"><i class="fa-solid fa-couch"></i>sofas</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#table"><i class="fa-solid fa-spoon"></i>tables</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#lamps"><i class="fa-solid fa-lightbulb"></i>lamps</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a id="carta">cart</a></li>
+                    <li><a id="wisha">wishlist</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./login.html">login</a></li>
+                    <li><a href="./register.html">register</a></li>
+
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-gear"></i></a>
+                        <div class="menu color">
+                            <ul class="links color1">
+                                <li data-color="#2196f3"><a href=""></a></li>
+                                <li data-color="rgb(255, 145, 0)"><a href=""></a></li>
+                                <li data-color="rgb(0, 196, 163)"><a href=""></a></li>
+                                <li data-color="rgb(204, 1, 255)"><a href=""></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- start cart -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+                <i class="fa-solid fa-xmark" id="close-cart"></i>
+            </div>
+        </div>
+        <!-- end Cart -->
+
+        <!-- start wishlist -->
+        <div class="wish">
+            <h2 class="wish-title">Your Wishlish</h2>
+            <div class="wish-content">
+                <i class="fa-solid fa-xmark" id="close-wish"></i>
+            </div>
+        </div>
+        <!-- end wishlist -->
+    </header>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about-contant">
+                <figure class="image">
+                    <img src="./images/about.jpg" width="300px" alt="">
+                    <figcaption style="color: white;">Fig : Products example.</figcaption>
+                </figure>
+                <div class="text">
+                    <h1>About Us</h1>
+                    <h3>Furniture<span> store</span></h3>
+                    <p>Welcome to our furniture store, where we offer a wide selection of stylish and comfortable
+                        furniture for your home. Our inventory includes sofas, tables, and lamps that are carefully
+                        crafted to meet your unique tastes and needs.
+
+                        Our sofas are available in a variety of sizes, styles, and colors, making it easy for you to
+                        find the perfect fit for your living room. Whether you're looking for a classic leather sofa or
+                        a cozy fabric loveseat, we have a variety of options to choose from.
+
+                        In addition to sofas, we also carry a selection of beautiful and functional tables, including
+                        coffee tables, end tables, and dining tables. Our tables are made from high-quality materials,
+                        such as solid wood and tempered glass, ensuring they will last for years to come.
+                    </p>
+                    <hr>
+                    <p>The purpose of a website dedicated to selling furniture is to provide a platform for customers to
+                        purchase various furniture items such as sofas, tables, and lamps. The goal of such a website is
+                        to make the process of buying furniture convenient, efficient, and accessible for customers by
+                        offering a wide range of products, detailed product information, and an easy-to-use online
+                        shopping experience. Additionally, the website may aim to increase brand visibility and drive
+                        sales for the furniture retailer. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 <span>logo</span> All Right Reserved
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

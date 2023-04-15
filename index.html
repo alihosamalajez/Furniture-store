@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture store</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><span>S</span>tore</a>
+            <nav class="lin open">
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul class="main">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">sections</a>
+                        <div class="menu">
+                            <ul class="links">
+                                <li>
+                                    <a href="#sofa"><i class="fa-solid fa-couch"></i>sofas</a>
+                                </li>
+                                <li>
+                                    <a href="#table"><i class="fa-solid fa-spoon"></i>tables</a>
+                                </li>
+                                <li>
+                                    <a href="#lamps"><i class="fa-solid fa-lightbulb"></i>lamps</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a id="carta">cart</a></li>
+                    <li><a id="wisha">wishlist</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./login.html">login</a></li>
+                    <li><a href="./register.html">register</a></li>
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-gear"></i>
+                        </a>
+                        <div class="color">
+                            <ul class="color1">
+                                <li data-color="#2196f3"><a href=""></a></li>
+                                <li data-color="rgb(255, 145, 0)"><a href=""></a></li>
+                                <li data-color="rgb(0, 196, 163)"><a href=""></a></li>
+                                <li data-color="rgb(204, 1, 255)"><a href=""></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- start cart -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+                <!-- <div class="cart-box">
+                    <img src="./images/sofa2.jpg" class="cart-img" alt="">
+                    <div class="detail">
+                        <div class="product-title">Test Title</div>
+                        <div class="cart-price">$25</div>
+                    </div>
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div> -->
+                <i class="fa-solid fa-xmark" id="close-cart"></i>
+            </div>
+        </div>
+        <!-- end Cart -->
+
+        <!-- start wishlist -->
+        <div class="wish">
+            <h2 class="wish-title">Your Wishlish</h2>
+            <div class="wish-content">
+                <!-- <div class="wish-box">
+                    <img src="./images/sofa2.jpg" class="wish-img" alt="">
+                    <div class="wish-detail">
+                        <div class="product-title">Test Title</div>
+                        <div class="wish-price">$25</div>
+                    </div>
+                    <i class="fa-solid fa-trash wish-remove"></i>
+                </div> -->
+                <i class="fa-solid fa-xmark" id="close-wish"></i>
+            </div>
+        </div>
+        <!-- end wishlist -->
+
+
+    </header>
+    <div class="landing">
+        <div class="text">
+            <p>Welcome to our furniture site. We have a wide range of quality furniture that will help you create a
+                beautiful and comfortable home.</p>
+        </div>
+    </div>
+
+    <section class="sofa" id="sofa">
+        <h2 class="main-heading">sofas</h2>
+        <div class="container">
+            <div class="box">
+                <img src="./images/sofa1.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Three-seat sofa</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 180$ <del>220$</del></h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa2.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Seven seater sofa</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 580$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa3.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Five seater sofa</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 360$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa4.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Modern style sofa</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 400$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa5.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">decorative sofa</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 480$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa6.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Five seater sofa</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 300$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa1.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Three-seat sofa1</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 180$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa2.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Seven seater sofa1</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 580$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa3.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Five seater sofa1</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 360$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa4.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Modern style sofa1</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 400$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa5.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">decorative sofa1</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 400$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/sofa6.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Five seater sofa1</h3>
+                    <p>The sofa gives a beautiful look to the place, in addition to its spaciousness for all members of
+                        your family.</p>
+                    <h4 class="price">prices : 300$ <del>359$</del></h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+
+    </section>
+
+    <section class="sofa table" id="table">
+        <h2 class="main-heading">tables</h2>
+        <div class="container">
+            <div class="box">
+                <img src="./images/table1.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Brown dining table</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 400$ <del>470$</del></h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table2.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Round dining table</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 150$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table3.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Wooden dining table</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 300$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table4.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Ornate dining table</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 550$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table5.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Spacious dining table</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 380$ <del>450$</del></h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table6.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Modern dining table</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 500$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table1.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Brown dining table1</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 470$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table2.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Round dining table1</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 150$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table3.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Wooden dining table1</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 290$ <del>310$</del></h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table4.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Ornate dining table1</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 550$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table5.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Spacious dining table1</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 380$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/table6.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Modern dining table1</h3>
+                    <p>A dining and study table that can accommodate all members of your family and all weddings.</p>
+                    <h4 class="price">prices : 450$ <del>500$</del></h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+    </section>
+    <section class="sofa" id="lamps">
+        <h2 class="main-heading">lamps</h2>
+        <div class="container">
+            <div class="box">
+                <img src="./images/lamp1.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Iron desk lamp</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 400$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp2.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">white desk lamp</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 12$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp3.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Wooden desk lamp</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 22$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp4.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Modern desk lamp</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 20$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp5.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Girl's desk lamp</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 25$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp6.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Decorative desk lamp</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 30$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp1.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Iron desk lamp1</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 15$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp2.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">white desk lamp1</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 12$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp3.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Wooden desk lamp1</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 22$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp4.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Modern desk lamp1</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 20$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp5.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Girl's desk lamp1</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 25$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="box">
+                <img src="./images/lamp6.jpg" class="product-img" width="500px" height="240px" alt="">
+                <div class="content">
+                    <h3 class="product-title">Decorative desk</h3>
+                    <p>The desk lamp gives the space an elegant and comfortable look and helps in studying.</p>
+                    <h4 class="price">prices : 30$</h4>
+                </div>
+                <i class="fa-solid fa-heart wishlist"></i>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+
+    </section>
+    <figure class="container">
+        <table class="c-table">
+            <thead>
+                <tr>
+                    <th>section</th>
+                    <th>nu-customers</th>
+                    <th>sales</th>
+                    <th>reviews</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sofas</td>
+                    <td>550</td>
+                    <td>400</td>
+                    <td>89%</td>
+                </tr>
+                <tr>
+                    <td>tables</td>
+                    <td>650</td>
+                    <td>440</td>
+                    <td>94%</td>
+                </tr>
+                <tr>
+                    <td>lamps</td>
+                    <td>350</td>
+                    <td>200</td>
+                    <td>75%</td>
+                </tr>
+            </tbody>
+        </table>
+        <figcaption style="padding: 0 0 15px;">table : site traffic.</figcaption>
+    </figure>
+
+    <footer>
+        &copy; 2023 <span>logo</span> All Right Reserved
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
